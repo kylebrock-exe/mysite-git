@@ -68,7 +68,6 @@
 }
 
 #header-background{
-	background-image: url("file:///C|/Users/Kyle Brock/Pictures/99246354_2327067974254435_7995085959420968960_n.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -309,8 +308,7 @@ body {
 .social .social_icon img {
 	width: 80%;
 }
-.container .secondary_header {
-}
+
 }
 
 

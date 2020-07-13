@@ -73,7 +73,6 @@
 }
 
 #header-background{
-	background-image: url("../../../Pictures/99246354_2327067974254435_7995085959420968960_n.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow: 10px 10px 25px black;
@@ -132,7 +131,6 @@
 	width: 100%;
 	height: 40%;
 	display: inline-block;
-	float: left;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	color: #FFFFFF;
 	padding-bottom: 10px;
@@ -334,8 +332,7 @@ body {
 .social .social_icon img {
 	width: 80%;
 }
-.container .secondary_header {
-}
+
 }
 
 
