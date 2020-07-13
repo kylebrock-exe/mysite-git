@@ -1,3 +1,5 @@
+object.addEventListener("click", random_link);
+
 function random_link() {
 	var random=Math.round(Math.random()*9)
 	var link1="https://youtu.be/gsGujOfkixc"

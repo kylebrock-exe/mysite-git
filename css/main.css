@@ -68,6 +68,7 @@
 }
 
 #header-background{
+	background-image: image("header_background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 }
