@@ -69,12 +69,13 @@
 }
 .primary_header {
 	width: 100%;
-	padding-bottom: 400px;
 }
 
 #header-background{
+	background-image: src="images/header_background.jpg";
 	background-repeat: no-repeat;
 	background-size: cover;
+	width:100%;
 	box-shadow: 10px 10px 25px black;
 	border-radius: 15px;
 }
@@ -85,7 +86,7 @@
 	background-color: darkorchid;
 	clear: left;
 	opacity: 0.9;
-	border-radius: 0 0 15px 15px;
+	border-radius: 15px;
 }
 .container .secondary_header ul {
 	margin-top: -1em;
@@ -446,7 +447,7 @@ body {
 		background-position: center;
 	}
 #menu {
-		opacity: 0.7
+		opacity: 0.7;
 	}
 
 }	

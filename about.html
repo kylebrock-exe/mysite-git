@@ -6,16 +6,17 @@
 </head>
 <body>
 <div class="container">
-  <header id="header-background">
-	  <div class="primary_header"></div>
-     <nav class="secondary_header" id="menu">
+  <header>
+    <div class="primary_header"> <img src="images/header_background.jpg" id="header-background">
+	</div>
+	 <nav class="secondary_header" id="menu">
       <ul>
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="letsplay.html">LET'S PLAYS</a></li>
-        <li><a href="https://www.twitch.tv/kyleapparently/videos">STREAM ARCHIVE</a></li>
+        <li><a href="https://www.twitch.tv/kyleapparently/videos" target="_blank">STREAM ARCHIVE</a></li>
         <li><a href="contact.html">CONTACT</a></li>
-		<li><a href="https://www.patreon.com/">PATREON</a></li>
+		<li><a href="https://www.patreon.com/" target="_blank">PATREON</a></li>
       </ul>
     </nav>
   </header>
@@ -33,7 +34,6 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 // Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
