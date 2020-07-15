@@ -1,27 +1,28 @@
 .container {
 	background-color: #FFFFFF;
 	width: 90%;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
 	border-bottom-width: 0px;
 	padding-left: 0px;
 	padding-top: 0px;
 	padding-right: 0px;
-	padding-bottom: 0px
+	padding-bottom: 0px;
+	max-width: 1200px;
+	margin: auto;
+
 }
 .row {
 	width: 100%;
 	margin-top: 0px;
-	margin-right: 0px;
+	margin-right: auto;
 	margin-bottom: 0px;
-	margin-left: 0px;
+	margin-left: auto;
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	display: inline-block
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
 }
 .row.blockDisplay {
 	display: block;
@@ -53,7 +54,9 @@
 	min-height:inherit;
 	box-shadow: 10px 10px 25px black;
 	border-radius: 15px;
+	justify-content: center;
 }
+
 
 .row .columns li {
 	margin-left: inherit;
@@ -88,6 +91,8 @@
 	background-color: darkorchid;
 	clear: left;
 	opacity: 0.9;
+	border-radius: 15px;
+	box-shadow: 10px 10px 25px black;
 	border-radius: 15px;
 }
 .container .secondary_header ul {
@@ -255,7 +260,12 @@ body {
 	
 }
 
-/*MEDIA QUERIES*/
+.iframe {
+	object-position: center;
+	object-fit: contain;
+
+}
+/********************MEDIA QUERIES***************************/
 
 @media (max-width: 320px) {
 .secondary_header ul li {
@@ -554,6 +564,7 @@ iframe {
 	
 
 
+/***********************Carousel**************************/
 
 * {box-sizing:border-box}
 
@@ -661,3 +672,4 @@ iframe {
 	font-size: 1.5em;
 	text-align: end;
 }
+
