@@ -20,8 +20,8 @@
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	display: flex;
-	flex-wrap: wrap;
+	display: inline-table;
+	flex-wrap: inherit;
 	align-content: center;
 }
 .row.blockDisplay {
@@ -36,14 +36,14 @@
 	background-color: orchid;
 	width: 45%;
 	height: 500px;
-	flex-wrap: wrap;
+	flex-wrap: inherit;
 	display: inline-grid;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 	color: white;
 	text-shadow: 0 0 15px black, 0 0 15px darkorchid;
 	line-height: 24px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 0;
+	padding-bottom: 0;
 	text-align: justify;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -263,8 +263,16 @@ body {
 .iframe {
 	object-position: center;
 	object-fit: contain;
-
 }
+
+.cao {
+	padding-top: 20%;
+}
+
+.bio {
+	text-align: center;
+}
+
 /********************MEDIA QUERIES***************************/
 
 @media (max-width: 320px) {
