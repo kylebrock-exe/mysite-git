@@ -1,6 +1,6 @@
 var randomLinkButton = document.getElementById('random-link');
 
-randomLinkButton.addEventListener('click', function()) {
+randomLinkButton.addEventListener('click', function(){
 	var random=Math.round(Math.random()*9)
 	var link1="https://youtu.be/gsGujOfkixc";
 	var link2="https://youtu.be/MItpz6Vehow";
@@ -32,4 +32,4 @@ randomLinkButton.addEventListener('click', function()) {
 		window.location=link9
 	else if (random==9)
 		window.location=link10
-}
+})
