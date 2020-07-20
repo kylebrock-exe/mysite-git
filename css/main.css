@@ -274,12 +274,20 @@ body {
 	object-fit: contain;
 }
 
-.cao {
-	padding-top: 20%;
-}
 
 .bio {
 	text-align: center;
+}
+
+.email_title {
+	font-size: 2.2em;
+	font-display: center;
+}
+
+.contact {
+	font-size: 1.2em;
+	text-align: center ;
+	display: inline-block;
 }
 
 /********************MEDIA QUERIES***************************/
@@ -424,11 +432,22 @@ body {
 	}
 
 	.article {
-	font-size: 0.6em;	
+		font-size: 0.6em;	
 	}
 
 	.bio {
 		font-size: 1.2em;
+	}
+
+	.email_title {
+		font-size: 5em;
+		font-display: center;
+	}
+
+	.contact {
+		font-size: 2em;
+		text-align: center ;
+		display: inline-block;
 
 	}
 
