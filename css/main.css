@@ -123,6 +123,15 @@
 	justify-content:center;	
 	list-style: none;
 	float: left;
+	margin-right: auto;
+	margin-top: 0px;
+	letter-spacing: 1px;
+	margin-left: auto;
+	text-align: center;
+	width: 1%;
+}
+
+.secondary_header a {
 	text-shadow: 0 0 25px black, 0 0 25px darkorchid;
 	margin-right: auto;
 	margin-top: 0px;
@@ -134,10 +143,10 @@
 	letter-spacing: 1px;
 	margin-left: auto;
 	text-align: center;
-	width: 16%;
 	transition: all 0.3s linear;
-	
+
 }
+
 .secondary_header ul li:hover {
 	color: darkred;
 	cursor: pointer;
@@ -266,7 +275,7 @@ body {
 
 .social {
 	box-shadow: 10px 10px 25px black;
-	border-radius: 15px 15px 0 0;	
+	border-radius: 15px 15px;	
 }
 
 .iframe {
@@ -403,12 +412,13 @@ body {
 	padding-top: 1px;
 	padding-bottom: 40px;
 }
-.left_article {
-	width: 100%;
-	height: auto;
+.row {
+	align-items: stretch;
+    display: flex;
 }
-
 .columns {
+	align-items: center;
+    display: flex;
 	width: 100%;
 	margin-top: 8px;
 	margin-right: 0px;
@@ -418,7 +428,7 @@ body {
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
-	position:static;
+	
 }
 .columns p {
 	padding-left: 14px;
@@ -427,33 +437,32 @@ body {
 }
 
 
-	#header-background {
-		background-position: center;
-	}
+#header-background {
+	background-position: center;	
+}
 
-	.article {
-		font-size: 0.6em;	
-	}
+.article {
+	font-size: 0.6em;	
+}
 
-	.bio {
-		font-size: 1.2em;
-	}
+.bio {
+	font-size: 1.2em;
+}
 
-	.email_title {
-		font-size: 5em;
-		font-display: center;
-	}
+.email_title {
+	font-size: 5em;
+	font-display: center;
+}
 
-	.contact {
-		font-size: 2em;
-		text-align: center ;
-		display: inline-block;
-
-	}
+.contact {
+	font-size: 2em;
+	text-align: center ;
+	display: inline-block;
+}
 
 }
 
-@media (min-width: 769px) and (max-width: 1000px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 .secondary_header {
 	overflow: auto;
 	padding-top: 30px;
@@ -481,7 +490,7 @@ body {
 	padding-right: 0px;
 }
 .columns {
-	width: 50%;
+	width: 100%;
 	float: left;
 	padding-left: 0px;
 	padding-top: 0px;
@@ -506,7 +515,7 @@ body {
 
 
 
-@media (min-width: 1001px) {
+@media (min-width: 1025px) {
 }
 .thumbnail {
 	width: 100px;
