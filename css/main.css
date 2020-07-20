@@ -413,13 +413,12 @@ body {
 	padding-bottom: 40px;
 }
 .row {
-	align-items: stretch;
     display: flex;
 }
 .columns {
 	align-items: center;
     display: flex;
-	width: 100%;
+	width: 90%;
 	margin-top: 8px;
 	margin-right: 0px;
 	margin-bottom: 6px;
@@ -435,7 +434,9 @@ body {
 	padding-right: 14px;
 	font-size: 1.2em;
 }
-
+.column_left {
+	width: 10%;
+}
 
 #header-background {
 	background-position: center;	

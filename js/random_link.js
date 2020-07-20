@@ -34,9 +34,9 @@ randomLinkButton.addEventListener('click', function(){
 		window.location=link10
 })*/
 
-var randomLinkButton = document.getElementById('random');
+var randomLinkButton = document.getElementById("random");
 
-randomLinkButton.addEventListener('click', function(){
+randomLinkButton.addEventListener("click", function(){
 	const random = Math.round(Math.random()*9);
 	const links = [
 	"https://youtu.be/gsGujOfkixc",
