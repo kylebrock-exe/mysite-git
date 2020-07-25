@@ -128,7 +128,7 @@
 	letter-spacing: 1px;
 	margin-left: auto;
 	text-align: center;
-	width: 1%;
+	width: 16%;
 }
 
 .secondary_header a {
@@ -299,6 +299,29 @@ body {
 	display: inline-block;
 }
 
+.caro img {
+	max-width: 500px;
+	max-height: 500px;
+}
+
+#profile_pic {
+	display: block;
+}
+
+
+#abc {
+	text-align: left;
+	padding-left: 33%;
+}
+
+#status {
+	text-align: center;
+}
+
+.form {
+	margin: auto;
+}
+
 /********************MEDIA QUERIES***************************/
 
 @media (max-width: 320px) {
@@ -461,6 +484,10 @@ body {
 	display: inline-block;
 }
 
+#profile_pic{
+	display: none;
+}
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -518,6 +545,19 @@ body {
 
 @media (min-width: 1025px) {
 }
+
+/*ul {
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+	vertical-align: inherit;
+	margin: inherit;
+}
+
+.secondary_header a {
+	min-width: 6em;
+}*/
+
 .thumbnail {
 	width: 100px;
 	border-radius: 50px;
@@ -605,12 +645,7 @@ iframe {
 	
 }
 
-#profile_pic  {
-	width: 40%;
-	float: left;
-	border: solid 10px #C960FF;
-	margin-left: 10px;
-}
+
 	
 
 

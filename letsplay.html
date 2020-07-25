@@ -14,7 +14,7 @@
         <li><a href="index.html">HOME</a></li>
         <li><a href="about.html">ABOUT</a></li>
         <li><a href="letsplay.html">LET'S PLAYS</a></li>
-        <li><a href="https://www.twitch.tv/kyleapparently/videos" target="_blank">STREAM ARCHIVE</a></li>
+        <li><a href="https://www.twitch.tv/kyleapparently/videos" target="_blank">LIVE STREAMS</a></li>
         <li><a href="contact.html">CONTACT</a></li>
 		<li><a href="https://www.patreon.com/" target="_blank">PATREON</a></li>
       </ul>
@@ -68,10 +68,10 @@
   
   <div class="social">
 	   <div>
-	 <script type="text/javascript" src="random.js">
+	 
 </script>
 <form>
-<input class="videoButton btn" value="WATCH A RANDOM VIDEO!" onClick="random_link()">
+  <button id="random" type="button" class="videoButton btn" SameSite=None>WATCH A RANDOM VIDEO!</button>
 </form>
 </div>
 <p class="social_icon"><a href="https://www.youtube.com/channel/UCZuWNUfPkYY9vcH3r4oFhXA?view_as=subscriber"><img src="images/youtube.png" width="225" alt="" class="thumbnail" /></a></p>
@@ -83,5 +83,6 @@
     <div class="copyright">&copy;2020 - <strong>KYLE APPARENTLY</strong></div>
   </footer>
 </div>
+<script type="text/javascript" src="js/random_link.js">document.getElementById("random")</script>
 </body>
 </html>
