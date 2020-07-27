@@ -317,11 +317,6 @@ body {
 	display: inline-block;
 }
 
-.caro img {
-	max-width: 500px;
-	max-height: 500px;
-}
-
 #profile_pic {
 	display: block;
 }
@@ -339,7 +334,7 @@ body {
 	margin: auto;
 }
 
-label {
+.label {
 	font-size: 1.5em;
 }
 
@@ -651,19 +646,14 @@ iframe {
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 30%;
-  max-height: 20%;
-  padding-top: 50px;	
   position: relative;
   margin: auto;
   text-align: justify;
 }
 
-
 .mySlides {
   display: none;
 }
-
 
 .prev, .next {
   cursor: pointer;
@@ -725,14 +715,20 @@ iframe {
 
 .active, .dot:hover {
   background-color: #717171;
+  display: none;
 }
 
+.carousel-item, .active {
+	width: 375px;
+	height: 375px;
+	overflow-x: hidden;
+}
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 0.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
 }
 
 @-webkit-keyframes fade {
