@@ -1,4 +1,4 @@
-
+/*******************Random Video Button***********************/
 
 var randomLinkButton = document.getElementById("random");
 

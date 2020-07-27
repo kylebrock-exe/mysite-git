@@ -1,5 +1,6 @@
 /**********************MasterRules*******************************/
 
+/******************Container******************************/
 .container {
 	background-color: #FFFFFF;
 	width: 90%;
@@ -10,8 +11,9 @@
 	padding-bottom: 0px;
 	max-width: 1200px;
 	margin: auto;
-
 }
+
+/*************************Row******************************/
 .row {
 	width: 100%;
 	margin-top: 0px;
@@ -26,9 +28,13 @@
 	flex-wrap: inherit;
 	align-content: center;
 }
+
+/****************Row Block Display**********************/
 .row.blockDisplay {
 	display: block;
 }
+
+/************************Columns************************/
 .column_half {
 	width: 50%;
 	float: left;
@@ -68,7 +74,12 @@
 	justify-content: center;
 }
 
+.column_title {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
 
+/****************************Column/Row Text**********************/
 .row .columns li {
 	margin-left: inherit;
 	padding-left: 10%;
@@ -83,6 +94,8 @@
     -webkit-text-stroke-color: white;
 	text-shadow: 0 0 25px black, 0 0 25px darkorchid;
 }
+
+/***************************Header*******************************/
 .primary_header {
 	width: 100%;
 }
@@ -152,6 +165,8 @@
 	cursor: pointer;
 	opacity: 0.5;
 }
+
+/****************************Article******************************/
 .article {
 	flex-direction: column;
 	justify-content: center;
@@ -196,6 +211,8 @@
 	text-shadow: 0 0 25px black, 0 0 25px darkorchid;
 }
 
+
+/*********************************Buttons*****************************/
 .videoButton {
 	box-shadow: 0px 0px 12px 0px #010500;
 	background:linear-gradient(to bottom, #ff0000 5%, #000000 100%);
@@ -226,6 +243,7 @@
 	top:1px;
 }
 
+/**************************Misc Selectors*******************************/
 .footer {
 	background-color: #717070;
 	box-shadow: 10px 10px 25px black;
@@ -246,10 +264,6 @@
 	height: 100%;
 }
 
-.column_title {
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
 .copyright {
 	text-align: center;
 	background-color: #717070;
@@ -260,6 +274,7 @@
 	border-top-width: 2px;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
 }
+
 body {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -308,7 +323,6 @@ body {
 	display: block;
 }
 
-
 #abc {
 	text-align: left;
 	padding-left: 33%;
@@ -322,8 +336,15 @@ body {
 	margin: auto;
 }
 
+label {
+	font-size: 1.5em;
+}
+
+
 /********************MEDIA QUERIES***************************/
 
+
+/*******************Max-Width 320px**************************/
 @media (max-width: 320px) {
 .secondary_header ul li {
 	float: none;
@@ -406,7 +427,7 @@ body {
 }
 
 
-
+/*******************Min-Width 321px, Max-Width 768px***********************/
 @media (min-width: 321px) and (max-width: 768px) {
 .secondary_header ul li {
 	float: none;
@@ -490,6 +511,7 @@ body {
 
 }
 
+/*******************Min-Width 769px, Max-Width 1024px***********************/
 @media (min-width: 769px) and (max-width: 1024px) {
 .secondary_header {
 	overflow: auto;
@@ -542,21 +564,8 @@ body {
 }	
 
 
-
+/***********************Min-Width 1025px****************************/
 @media (min-width: 1025px) {
-}
-
-/*ul {
-	display: flex;
-	flex-wrap: wrap;
-	float: left;
-	vertical-align: inherit;
-	margin: inherit;
-}
-
-.secondary_header a {
-	min-width: 6em;
-}*/
 
 .thumbnail {
 	width: 100px;
@@ -636,17 +645,15 @@ iframe {
 	margin-bottom: 15px;
 	margin-top: 15px;	
 }
+}
 
+/*******************Video iFrame Transform***********************/
 @media (max-width: 669px){
 
 	iframe {
 	transform: scale(0.80);
-	}
-	
+	}	
 }
-
-
-	
 
 
 /***********************Carousel**************************/

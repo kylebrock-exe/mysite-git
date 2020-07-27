@@ -1,14 +1,21 @@
 <!doctype html>
 <html>
 <head>
+<!--Header -->
 <title>Kyle Apparently</title>
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
+
+<!--Body-->
 <body>
 <div class="container">
+
+<!--Header Background-->  
   <header>
     <div class="primary_header"> <img src="images/header_background.jpg" id="header-background">
-	</div>
+  </div>
+  
+  <!--Header Nav-->
 	 <nav class="secondary_header" id="menu">
       <ul>
         <li><a href="index.html">HOME</a></li>
@@ -20,22 +27,29 @@
       </ul>
     </nav>
   </header>
+
+  <!--Main Article-->
   <article class="article">
     <h3 class="latest">HEY THERE INTERNET!</h3>
   <h3 class="game-title">I'M KYLE APPARENTLY...</h3>
     <p>This is my site where I host a multitude of content! Everything from my Let's Play video series to random snippets and blurbs I make about my daily life as a big ol' dorky gamer! I'm always grateful for feedback, or ideas for future content so be sure to drop me a line on the Contact page! </p>
 </article>
+
+<!--Latest Series Article-->
 	<article class="article">
       <h3 class="latest">CHECK OUT MY LATEST SERIES!</h3>
 	  <h3 class="game-title">SUPER MARIO WORLD RANDOMIZED</h3>
       <p>I'm playing through an all time classic on the SNES, but with a diabolic and entertaining twist! In this ROM Hack every single stage, enemy, and power up has been completely RANDOMIZED! </p>
 	  <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/eJ6SlzOHuP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </article>
+
+<!--Recommended Series Article-->
   <article class="article">
     <h3 class="latest">DON'T KNOW WHERE TO START?</h3>
   <h3 class="game-title">HERE ARE SOME OF MY PERSONAL FAVORITE SERIES!</h3>
 </article>
 
+<!--Series Row/Columns-->
   <div class="row">
 	<section>
     <div class="columns column_left">
@@ -64,23 +78,31 @@
     </div>
 	 </section>	 	 
   </div>
-  
+
+<!--Footer-->
   <div class="social">
 	   <div>
-		
+    
+<!--JS Video Button-->      
 <form>
 <button id="random" type="button" class="videoButton btn" SameSite=None>WATCH A RANDOM VIDEO!</button>
 </form>
 </div>
+
+<!--Social Media Buttons-->
     <p class="social_icon"><a href="https://www.youtube.com/channel/UCZuWNUfPkYY9vcH3r4oFhXA?view_as=subscriber"><img src="images/youtube.png" width="225" alt="" class="thumbnail" /></a></p>
     <p class="social_icon"><a href="https://www.facebook.com/kyleapparently/?modal=admin_todo_tour"><img src="images/fb.png" width="225" alt="" class="thumbnail"/></a></p>
     <p class="social_icon"><a href="https://twitter.com/kylembrock2"><img src="images/twitter.png" width="225" alt="" class="thumbnail"/></a></p>
     <p class="social_icon"><a href="https://www.instagram.com/kyleapparently/"><img src="images/insta.png" width="840" alt="" class="thumbnail"/></a></p>
   </div>
+
+<!--Copyright-->  
   <footer class="secondary_header footer">
     <div class="copyright">&copy;2020 - <strong>KYLE APPARENTLY</strong></div>
   </footer>
 </div>
+
+<!--JS Scripts-->
 <script type="text/javascript" src="js/random_link.js">document.getElementById("random")</script>
 </body>
 </html>
